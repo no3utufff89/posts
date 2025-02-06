@@ -1,0 +1,17 @@
+.list {
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    background-color: transparent;
+    padding: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #7786ef;
+    border-bottom: 1px solid #7786ef;
+    border-bottom-left-radius: 12px;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+}
